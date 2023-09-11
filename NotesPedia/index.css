@@ -503,7 +503,12 @@ img:hover {
     /* border: 2px solid rebeccapurple; */
 }
 
-.new ul a:hover {
+.new .hell{
+    padding: 0.4rem 0.7rem;
+    border-radius: 1rem;
+}
+
+.new .hell:hover {
     background-color: white;
     color: black;
     padding: 0.4rem 0.7rem;
