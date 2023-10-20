@@ -102,17 +102,16 @@ html{
     display: none;
 }
 
-#home{
-    /* padding-top: 2rem; */
-}
+
 #book{
-    padding: .3rem;
+    /* padding: .3rem; */
+    /* margin-top: .3rem; */
     padding-left: .5rem;
     padding-right: .5rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     background-color: rgb(74, 182, 250);
-    transform: translateY(-20px);
+    transform: translateY(-15px);
 
 }
 
@@ -232,6 +231,24 @@ footer div:hover{
 }
 
 
+
+
+.navbar-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+.navbar-button a {
+    color: rgb(0, 0, 0);
+    padding-bottom: .3rem;
+    text-decoration: none;
+}
+
+
+
+
 @media (max-width:550px){
     
     .heading-title{
@@ -251,12 +268,14 @@ footer div:hover{
         /* height: 30%; */
         /* width: 30%; */
         /* height: 30%; */
-        height: 9rem;
-        width: 9rem;
+        height: 8rem;
+        width: 8rem;
         /* border: 5px solid gray; */
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 1rem;
     }
     footer{
         display: grid;

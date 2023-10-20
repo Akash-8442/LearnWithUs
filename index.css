@@ -100,12 +100,12 @@ h1:hover{
 }
 
 #home{
-    padding: .2rem;
-    /* padding-top: 2rem; */
+    /* padding: .2rem; */
+    /* padding-bottom: .2rem; */
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     background-color: rgb(74, 182, 250);
-    transform: translateY(-20px);
+    transform: translateY(-15px);
 }
 
 .navbar button{
@@ -115,6 +115,30 @@ h1:hover{
 
 
 /* New NavBar Ending */
+
+
+
+
+
+
+.navbar-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+.navbar-button a {
+    color: rgb(0, 0, 0);
+    padding-bottom: .3rem;
+    text-decoration: none;
+}
+
+
+
+
+
+
 
 
 .border1 {

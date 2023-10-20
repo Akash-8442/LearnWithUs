@@ -70,7 +70,7 @@ html{
 }
 
 #techblog{
-    padding: .4rem;
+    /* padding: .4rem; */
     padding-left: .45rem;
     padding-right: .45rem;
     /* padding-top: 2rem; */
@@ -90,6 +90,21 @@ html{
 /* New NavBar Ending */
 
 
+
+
+
+.navbar-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+.navbar-button a {
+    color: rgb(0, 0, 0);
+    padding-bottom: .3rem;
+    text-decoration: none;
+}
 
 
 
