@@ -1,10 +1,16 @@
 html{
     /* background-color: black; */
+    color: white;
     border: 1px solid white;
     margin: .1rem;
-    /* background-color: rgb(170, 231, 255); */
-
-    background-image: linear-gradient(90deg , rgba(8, 140, 216, 0.808),rgba(20, 180, 172, 0.651),rgba(134, 44, 170, 0.685));
+    background-color: rgb(10, 79, 147);
+    background-image: url(images/cs-bg3.webp);
+    /* background-repeat: repeat-y; */
+    background-position: center;
+    width: 100%;
+    /* position: fixed; */
+    /* backgro */
+    /* background-image: linear-gradient(90deg , rgba(8, 140, 216, 0.808),rgba(20, 180, 172, 0.651),rgba(134, 44, 170, 0.685)); */
 }
 
 body {
@@ -14,18 +20,20 @@ body {
     margin: .9rem;
 }
 
+
 h1 {
-    color: #2e0d0d;
+    color: #ffffff;
     font-size: 3rem;
     margin-left: 2rem;
+    font-style: underline;
     /* text-align: center; */
 }
 h1:hover{
-    color: black;
+    color: rgb(205, 206, 255);
 }
 
 .table-content li{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 550;
 
 
@@ -43,13 +51,13 @@ a{
 }
 
 ul li a{
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     /* padding: 1rem; */
     line-height: 2;
 }
 a:hover{
     /* background-color: blue; */
-    color: white;
+    color: rgb(27, 255, 255);
 }
 
 
@@ -80,18 +88,19 @@ img:hover{
 
 
 details button{
-    color: rgb(0, 0, 0);
-    background-color: transparent;
+    color: rgb(255, 255, 255);
+    background-color: rgba(36, 59, 212, 0.366);
     font-weight: 500;
+    border: 1px solid white;
     border-radius: 8%;
     padding:.4rem ;
     padding-left :1rem ;
     padding-right :1rem ;
 }
 details button:hover{
-    background-color: rgb(170, 231, 255);
+    background-color: rgb(0, 0, 0);
     cursor: grab;
-    border-radius: .5rem;
+    /* border-radius: .5rem; */
     font-weight: 600;
 }
 
@@ -99,6 +108,9 @@ li{
     font-weight: 550;
 }
 
+.github{
+    filter: invert(100%);
+}
 
 
 

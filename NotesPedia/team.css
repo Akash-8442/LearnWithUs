@@ -1,9 +1,16 @@
 html{
-    background-image: linear-gradient(90deg , rgb(8, 140, 216),rgba(20, 180, 172, 0.651),rgb(134, 44, 170));
+    background-image: url(images/team_banner.jpg);
+    /* background-image: linear-gradient(90deg , rgb(8, 140, 216),rgba(20, 180, 172, 0.651),rgb(134, 44, 170)); */
 }
 
 .heading h1{
+    color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3vh;
     padding-left: 2rem;
+    /* font-style: ; */
+    border-bottom: 2px solid black;
 }
 
 .profile1 img{
@@ -79,10 +86,10 @@ section .social-media{
 }
 
 img:hover{
-    scale: 1.05;
+    scale: 1.01;
 }
 .social-media:hover{
-    scale: 1.6;
+    scale: 1.2;
 }
 
 
@@ -94,6 +101,6 @@ img:hover{
     height: 2rem;
 }
 .user-social-section img:hover{
-    scale: 1.7;
+    scale: 1.2;
 }
 
