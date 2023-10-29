@@ -60,3 +60,11 @@ header h1{
     scale: 1.25;
     transition: .4s;
 }
+
+
+.bhome{
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    rotate: 270deg;
+}
