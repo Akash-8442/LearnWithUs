@@ -194,6 +194,16 @@ h3:hover {
 }
 
 
+.navbar div{
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    font-size: .8rem;
+}
+.navbar{
+    border-radius: 0;
+}
+
+
 .course-heading {
     background-color: rgb(91, 174, 245);
     /* max-width: 90%; */
@@ -319,10 +329,6 @@ h3:hover {
     row-gap: 5vw;
 }
 
-.html-logo:hover {
-    /* transform: skew(-10deg , -10deg) ; */
-    /* transition: ease-in; */
-}
 
 /* Animation */
 

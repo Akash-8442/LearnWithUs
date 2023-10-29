@@ -124,8 +124,15 @@ html{
 
 /* New NavBar Ending */
 
-
-
+.navbar{
+    padding-top: .5rem;
+    padding-bottom: .3rem;
+}
+.navbar{
+    /* border-radius: 75%; */
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
 
 
 
@@ -163,13 +170,14 @@ html{
     z-index: 0;
 }
 
+
+
 .lang:hover{
     background-color: rgb(2, 141, 255);
     transition: 1s cubic-bezier(1,1,1,1);
 }
 .prog-text{
     display: none;
-    text-align: center;
 }
 .prog-text  button{
     border: 1px solid black;
@@ -185,7 +193,23 @@ html{
         display: none;
     }
     .prog-text{
-        display: block;
+        display: contents;
+        /* flex-wrap: nowrap; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* place-items: center; */
+        /* grid-template-columns: 1fr 1fr; */
+        /* padding: 0 !important; */
+        /* margin: 0 !important; */
+    }
+    .prog-text div a , .prog-text div{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .prog-text div{
+        /* display: flex; */
+        /* flex-direction: column; */
     }
 }
 
@@ -381,5 +405,28 @@ footer div:hover{
 @media (max-width:390px){
     .pipe{
         display: contents;
+    }
+}
+
+.prog-text a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media (max-width:550px){
+    .prog-text a button{
+        position: relative;
+        top: -1.3rem;
+    }
+}
+@media (min-width:550px){
+    .prog-text a button{
+        position: relative;
+        /* top: -1.3rem; */
+        
+    }
+    .prog-text:hover{
+        display: grid;
+        grid-template-columns: 1fr;
+            
     }
 }
