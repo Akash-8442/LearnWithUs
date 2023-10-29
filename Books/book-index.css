@@ -55,12 +55,6 @@ html{
 }
 
 
-.text-for-text{
-    /* justify-content: center; */
-    text-align: center;
-}
-
-
 
 /* New navBar */
 
@@ -129,7 +123,6 @@ html{
 
 
 /* New NavBar Ending */
-
 
 
 
@@ -361,8 +354,32 @@ footer div:hover{
 @media (max-width:550px){
     .navbar{
         display: flex;
+        justify-content: space-around;
     }
     .heading-nav{
         display: none;
+    }
+    
+
+}
+
+.pipe{
+    display: none;
+}
+
+@media (max-width:650px){
+    .bundle{
+        display: grid !important;
+        grid-template-columns: 1fr;
+        /* place-items: center; */
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:350px){
+    .pipe{
+        display: contents;
     }
 }
