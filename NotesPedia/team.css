@@ -1,106 +1,62 @@
 html{
+    background-color: black;
+    /* color: white; */
     background-image: url(images/team_banner.jpg);
-    /* background-image: linear-gradient(90deg , rgb(8, 140, 216),rgba(20, 180, 172, 0.651),rgb(134, 44, 170)); */
+    background-repeat: repeat;
+    background-size: cover;
 }
 
-.heading h1{
-    color: rgb(0, 0, 0);
+header h1{
+    border-bottom: 3px solid rgb(0, 0, 0);
     padding: 0;
     margin: 0;
-    margin-bottom: 3vh;
-    padding-left: 2rem;
-    /* font-style: ; */
-    border-bottom: 2px solid black;
+    padding-left: 2.5vw;
+    padding-top: .5vw;
 }
 
-.profile1 img{
-    height:15rem;
-    border-radius: 1rem;
-    
-}
-
-
-
-.team-member{
-    display: flex;
-    /* grid-template-columns: 1fr 1fr; */
-    place-items: center;
-    flex-wrap: wrap;
-    /* padding: 2rem; */
-}
-
-
-.profile1{
-    transition: 1.5s;
-    display: flex;
-    flex-direction: column;
-    /* gap: 0; */
-    padding-left: 10vw;
-    padding-bottom: 2rem;
-}
-
-.member-detail{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* gap: 0; */
-}
-
-.name,.role{
-    font-weight: 700;
-    color: black;
-}
-.number a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-section .social-media{
-    height: 2rem;
+.all-member{
+    padding-top: 2rem;
     display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 1rem;
-    /* gap: 2rem; */
-    
-}
-.social-media-section   {
-    position: fixed;
-    top: 25%;
-    right: 1rem;
-    /* margin-bottom: 3rem; */
-    /* row-gap: 4rem; */
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
 }
 
-img:hover{
-    scale: 1.01;
+.profile{
+    border: 1px solid white;
+    padding: .8rem;
+    background-color: rgba(43, 81, 111, 0.358);
+    border-radius: .3rem;
 }
-.social-media:hover{
-    scale: 1.2;
+
+.text-about{
+    padding-top: 1vh;
+}
+
+.text-about p{
+    margin: 0;
+    padding: 0;
+}
+
+.profile-img{
+    height: 15vw;
+    box-shadow: 4px 4px rgb(19, 19, 19);
+    border-radius: 1rem;
+}
+.profile-img:hover{
+    scale: 1.04;
+    transition: .5s;
 }
 
 
-.user-social-section{
-    display: flex;
+.social-media img{
+    height: 1.8rem;
+    padding-top: 1vw;
+}
+.github{
+    filter: invert(00%);
 }
 
-.user-social-section img{
-    height: 2rem;
+.social-media img:hover{
+    scale: 1.25;
+    transition: .4s;
 }
-.user-social-section img:hover{
-    scale: 1.2;
-}
-
