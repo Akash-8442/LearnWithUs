@@ -378,7 +378,7 @@ footer div:hover{
 }
 
 
-@media (max-width:350px){
+@media (max-width:390px){
     .pipe{
         display: contents;
     }
