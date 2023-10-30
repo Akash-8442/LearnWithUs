@@ -1,15 +1,17 @@
 html{
-    color: black;
+    color: rgb(255, 255, 255);
     /* color: white; */
-    background-color: rgb(64, 197, 233);
+    
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.807);
 }
 
 .headings{
-    padding-left: 4%;
+    /* padding-left: 4%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 
 .headings h1{
@@ -112,8 +114,8 @@ html{
 
 
 .vision-text{
-    border-bottom: 4px solid black;
-    border-right: 4px solid black;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-right: 4px solid rgb(255, 255, 255);
     padding: 2rem;
     padding-bottom: .5rem;
     padding-right: .5rem;
@@ -222,4 +224,68 @@ a{
         padding-right: 1.5rem;
 
     }
+}
+
+
+
+.headings{
+    border: 2px solid rgb(32, 32, 32);
+    background-color: rgb(56, 126, 188);
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    color: white;
+    /* width: 98%; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    width: 100vw;
+}
+
+.headings h1{
+    text-shadow: 1.2px 1.2px rgb(43, 43, 43);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width:400px){
+
+    .headings{
+        display: block;
+        text-align: center;
+        padding-top: 0rem;
+        /* height: 10%; */
+    }
+
+}
+
+@media (min-width:500px){
+    .headings{
+        height: 10%;
+    }
+}
+
+
+.vision-text{
+    margin-left: .7rem;
+    margin-right: .7rem;
+    padding: .6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.blog1-order{
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+
+.vision h2{
+    margin-left: .5rem;
 }
