@@ -1,6 +1,6 @@
 html{
 
-    background-image: linear-gradient(to bottom, rgb(170, 231, 255), rgb(4, 40, 58));
+    background-image: linear-gradient(to bottom, rgb(170, 231, 255), rgb(170, 231, 255));
     height: fit-content;
     /* background-color: rgb(130, 252, 223); */
     overflow-x: hidden;

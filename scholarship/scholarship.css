@@ -85,12 +85,16 @@ a {
     padding-top: .35rem;
     padding-bottom: .35rem;
     /* display: none; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .btn-scholarship{
+    padding-left: .8rem;
+    padding-right: .8rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    transform: translateY(-15px);
+    transform: translateY(-30px);
     background-image: linear-gradient(45deg,rgb(44, 184, 153),rgba(174, 108, 212, 0.98));
     /* width: 3rem; */
 }
@@ -101,8 +105,6 @@ a {
 
 
 /* New NavBar Ending */
-
-
 
 
 
@@ -681,3 +683,16 @@ span {
         /* width: 18rem !important; */
     }
 }
+
+
+
+@media (max-width:500px){
+    .navbar div img{
+        display: none;
+    }
+
+    .headings h1{
+        font-size: 2.2rem;
+    }
+}
+
