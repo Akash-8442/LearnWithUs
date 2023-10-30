@@ -2,7 +2,7 @@ html{
     color: rgb(255, 255, 255);
     /* color: white; */
     
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color: rgba(0, 0, 0, 0.807);
 }
 
@@ -21,7 +21,10 @@ html{
     /* color: black; */
 }
 
-
+.headings:hover{
+    background-color: rgb(84, 126, 154);
+    color: black;
+}
 
 
 
@@ -185,8 +188,10 @@ a{
     padding: .3rem;
     padding-left: .7rem;
     padding-right: .7rem;
-    background-color: rgb(5, 103, 120);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    /* color: rgb(0, 0, 255, 0.714); */
+    color: rgba(0, 0, 0, 0.714);
+    font-weight: 600;
     border: 0;
     border-radius: .2rem;
     font-size: 1rem;
@@ -229,7 +234,10 @@ a{
 
 
 .headings{
-    border: 2px solid rgb(32, 32, 32);
+    /* border: 2px solid rgb(32, 32, 32); */
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
     background-color: rgb(56, 126, 188);
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
@@ -246,6 +254,7 @@ a{
     align-items: center;
     place-items: center;
     width: 100vw;
+
 }
 
 .headings h1{
@@ -288,4 +297,27 @@ a{
 
 .vision h2{
     margin-left: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar div a{
+    font-weight: 550;
+}
+.navbar{
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    padding-top: .6rem;
+    padding-bottom: .5rem;
+    height: 1.5rem;
+}
+.navbar div img{
+    display: none;
 }

@@ -592,6 +592,10 @@ button{
 }
 
 
+.navbar div a {
+    font-weight: 600;
+    font-size: .7rem;
+}
 
 
 @media (max-width:550px){
@@ -634,3 +638,7 @@ button{
     }
 }
 
+.navbar{
+    border-top-right-radius: 35%;
+    border-top-left-radius: 35%;
+}

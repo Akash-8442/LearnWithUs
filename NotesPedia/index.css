@@ -572,3 +572,42 @@ img:hover {
         display: none;
     }
 }
+
+
+.navbar div img{
+    display: none;
+}
+
+.navbar div a{
+    font-weight: 600;
+    /* margin-bottom: 1rem; */
+    /* padding-top: .0rem; */
+    /* scale: 0.9; */
+}
+
+.navbar{
+    border-top-right-radius: 30% ;
+    border-top-left-radius: 30% ;
+}
+
+@media (max-width:350px){
+    .navbar div a{
+        /* scale:0.9; */
+        font-size: .7rem;
+    }
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0rem;
+    left: 0;
+    right: 0;
+    height: 1.2rem;
+    margin: 0;
+    padding: 0;
+    padding-bottom: .6rem;
+    padding-top: .6rem;
+}
+
+

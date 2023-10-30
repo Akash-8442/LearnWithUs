@@ -1,7 +1,9 @@
 .html {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(45deg, rgb(48, 209, 174), rgba(160, 57, 219, 0.418), rgb(58, 226, 231));
+    background-color: #212121;
+    color: white;
+    /* background-image: linear-gradient(45deg, rgb(48, 209, 174), rgba(160, 57, 219, 0.418), rgb(58, 226, 231)); */
     /* height: 1%; */
     /* color: white; */
     /* background-color: gray; */
@@ -40,12 +42,12 @@ a {
 
 /* New navBar */
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.heading{
+.heading {
     /* border: 3px solid ; */
     background-color: rgba(0, 0, 255, 0.714);
     border-bottom-left-radius: 5rem;
@@ -55,19 +57,19 @@ a {
     padding-right: 2rem;
 }
 
-.heading h1{
+.heading h1 {
     text-align: center;
 
 }
 
 
-.navbar img{
+.navbar img {
     height: 2rem;
     /* left: 0; */
     /* border: 2px solid black; */
 }
 
-.navbar{
+.navbar {
     position: fixed;
     bottom: -1%;
     display: flex;
@@ -75,8 +77,8 @@ a {
     /* border: 4px solid rgb(74, 182, 250); */
     width: 100%;
     /* padding: auto; */
-    /* background-color: rgb(74, 182, 250); */
-    background-image: linear-gradient(45deg, rgb(48, 209, 174), rgba(160, 57, 219, 0.98), rgb(58, 226, 231));
+    background-color: rgb(74, 182, 250);
+    /* background-image: linear-gradient(45deg, rgb(48, 209, 174), rgba(160, 57, 219, 0.98), rgb(58, 226, 231)); */
     border-top-left-radius: 7rem;
     border-top-right-radius: 7rem;
     /* align-items: center; */
@@ -89,16 +91,17 @@ a {
     padding-bottom: 1rem;
 }
 
-.btn-scholarship{
-    padding-left: .8rem;
-    padding-right: .8rem;
+.btn-scholarship {
+    /* padding-left: .8rem; */
+    /* padding-right: .8rem; */
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    transform: translateY(-30px);
-    background-image: linear-gradient(45deg,rgb(44, 184, 153),rgba(174, 108, 212, 0.98));
+    /* transform: translateY(-30px); */
+    /* background-image: linear-gradient(45deg, rgb(44, 184, 153), rgba(174, 108, 212, 0.98)); */
     /* width: 3rem; */
 }
-.navbar button{
+
+.navbar button {
     background-color: transparent;
     border: 0;
 }
@@ -108,13 +111,14 @@ a {
 
 
 
-.navbar-button{
+.navbar-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     place-items: center;
 }
+
 .navbar-button a {
     color: rgb(0, 0, 0);
     padding-bottom: .3rem;
@@ -124,7 +128,7 @@ a {
 
 
 .recent h2 {
-    color: rgb(15, 15, 15);
+    color: rgb(255, 253, 253);
     text-decoration: underline;
     padding-left: .75rem;
     padding-bottom: .75rem;
@@ -429,7 +433,7 @@ span {
     }
 }
 
-.hdfc-scholarship{
+.hdfc-scholarship {
 
     border: 2px solid rgba(0, 0, 0, 0);
     height: 20rem !important;
@@ -447,32 +451,34 @@ span {
 
 }
 
-.hdfc-text{
+.hdfc-text {
     font-size: 2.5rem;
     text-align: start;
     transform: rotateZ(270deg);
 }
 
 
-:is(.hdfc-scholarship:hover){
-    .hdfc-text{
+:is(.hdfc-scholarship:hover) {
+    .hdfc-text {
         transform: rotateZ(0deg);
         /* width: 20rem; */
         /* background-color: #ffffff; */
-    }  
+    }
+
     .text2 {
         display: block;
-    }  
+    }
 
-    .text{
+    .text {
         display: grid;
         place-items: center;
     }
-   
+
 
 
 }
-.hdfc-scholarship:hover{
+
+.hdfc-scholarship:hover {
     width: 20rem !important;
     height: 20rem !important;
     background-color: rgba(7, 53, 179, 0.705);
@@ -518,9 +524,10 @@ span {
 /* responsiveness */
 
 @media (max-width:420px) {
-    .heading h1{
+    .heading h1 {
         font-size: 2.4rem;
     }
+
     .scholarship-section {
         display: grid;
         grid-template-columns: 1fr;
@@ -535,6 +542,7 @@ span {
         transform: rotateZ(0deg);
         /* text-align: start; */
     }
+
     .reliance-new-idea h1 {
         /* text-align: start; */
         /* position: relative; */
@@ -542,14 +550,16 @@ span {
         /* left: -3.5rem; */
         font-size: 2.5rem;
         transform: rotateZ(0deg);
-        
+
     }
-    .height-for-mobile{
+
+    .height-for-mobile {
         height: 10rem !important;
         width: 9rem !important;
 
     }
-    .height-for-mobile:hover{
+
+    .height-for-mobile:hover {
         height: 16rem !important;
         width: 14rem !important;
     }
@@ -564,8 +574,8 @@ span {
         /* rotate: 90deg; */
     }
 
-    
-    .hdfc-text{
+
+    .hdfc-text {
         /* font-size: 30rem; */
         transform: rotateZ(0deg);
     }
@@ -622,7 +632,8 @@ span {
         height: 12rem !important;
         width: 10rem !important;
     }
-    .height-for-mobile:hover{
+
+    .height-for-mobile:hover {
         height: 15rem !important;
         width: 16rem !important;
     }
@@ -631,6 +642,7 @@ span {
         display: grid;
         grid-template-columns: 1fr;
     }
+
     .faea-text-before {
         font-size: 2.2rem;
         /* text-align: start; */
@@ -660,14 +672,15 @@ span {
         /* rotate: 90deg; */
     }
 
-    .hdfc-text{
+    .hdfc-text {
         font-size: 2rem;
         transform: rotateZ(0deg);
     }
 
 
 }
-@media (min-width:600px) and (max-width:870px){
+
+@media (min-width:600px) and (max-width:870px) {
 
     .scholarship-section {
         display: grid;
@@ -677,7 +690,7 @@ span {
 }
 
 
-@media (min-width: 600px) and (max-width:725px){
+@media (min-width: 600px) and (max-width:725px) {
     .scholarship:hover {
         /* height: 9rem !important; */
         /* width: 18rem !important; */
@@ -686,13 +699,60 @@ span {
 
 
 
-@media (max-width:500px){
-    .navbar div img{
-        display: none;
-    }
+/* @media (max-width:500px){ */
+.navbar div img {
+    display: none;
+}
 
-    .headings h1{
-        font-size: 2.2rem;
+.headings h1 {
+    font-size: 2.2rem;
+}
+
+/* } */
+
+
+.navbar div a{
+    font-weight: 550;
+    font-size: .7rem;
+}
+
+@media (min-width:550px){
+    .navbar div a{
+        font-size: 1rem;
     }
 }
 
+
+.headings h1{
+    color: white;
+    text-shadow: 1.2px 1.2px rgb(43, 43, 43);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headings{
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+    background-color: rgba(74, 182, 250);
+    padding: 0;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    margin-top: -1rem;
+
+}
+
+
+@media (min-width: 550px){
+
+    .headings{
+        height: 3.5rem;
+    }
+    .headings h1{
+        font-size: 2.5rem;
+        padding-top: .6rem;
+        padding-bottom: .6rem;
+    }
+}

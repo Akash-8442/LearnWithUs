@@ -32,6 +32,9 @@ a{
 .heading-nav a{
     text-decoration: none;
     color: inherit;
+    padding: .25rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
     
 }
 .heading-nav{
@@ -136,8 +139,8 @@ a{
 }
 .navbar{
     /* border-radius: 75%; */
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    /* border-bottom-left-radius: 0; */
+    /* border-bottom-right-radius: 0; */
 }
 
 
@@ -389,6 +392,9 @@ footer div:hover{
     .heading-nav{
         display: none;
     }
+    .bhome{
+        display: none;
+    }
     
 
 }
@@ -435,6 +441,7 @@ footer div:hover{
         grid-template-columns: 1fr;
             
     }
+
 }
 
 
@@ -457,4 +464,25 @@ footer div:hover{
     /* align-items: center; */
     /* place-items: center; */
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+}
+
+
+.navbar div a{
+    font-weight: 600;
+}
+.navbar{
+    border-top-left-radius: 35%;
+    border-top-right-radius: 35%;
+    font-size: .65rem;
+}
+
+.heading-nav a:hover{
+    background-color: white;
+    color: black;
+    padding: .25rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    transition: .8s;
 }

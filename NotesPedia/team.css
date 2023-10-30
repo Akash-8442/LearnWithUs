@@ -103,7 +103,7 @@ header h1{
 }
 @media (max-width:400px){
     .profile{
-        height: 70vw;
+        height: 80vw;
     }
     .profile-img{
         height: 45vw;
@@ -129,4 +129,5 @@ header h1{
     bottom: 2vw;
     right: 2vw;
     rotate: 270deg;
+    /* height: 1rem; */
 }
