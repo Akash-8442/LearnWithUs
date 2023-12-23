@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="linux.css">
+</head>
+<body>
+    <h1>Linux Documentation</h1>
+
+    <h3>Basic Command :-</h3>
+    <ul>
+        <li><b>PWD :</b>Gives us the current working directory.</li>
+        <li><b>cd :</b> <br> cd foldeer-name : Navigate us to that folder <br> cd .. : Navigate us to the previous folder. </li>
+        <li><b>ls : Gives us the list of all files and folder present in that directory.</b></li>
+        <li><b>touch :</b> touch file-name : Make a file with the name provided.</li>
+        <li><b>cat :</b>Shows us the content of the file.</li>
+        <li><b>echo :</b> In order to put some content to the file we can use this command. <br> <b>Syntax : </b>echo _content-to-be-inserted_ > file-name</li>
+        <li><b>nano :</b> We can use nano to insert or modify our file using a GUI rather than command line. <br> <b>Syntax :</b> nano file-name </li>
+        <li><b>mkdir :</b>In order to create a new folder we can use this command. <br> <b>Syntax : </b>mkdir folder-name</li>
+        <li><b>mv :</b> To move our file to another folder. <br><b>Syntax :</b>mv file-name destination-folder-name</li>
+        <li><b>cp :</b>To make copy of a file. <br> <b>Syntax :</b>cp existing-file new-name-after-copying </li>
+        <li><b>rm :</b>To remove a file we can use this command. <br><b>Syntax :</b>rm file-name <br> To remove a folder we must use <b>-r</b>after the folder name. <br> <b>rm * -r</b> Removes everything in that directory.</li>
+        <li><b>clear :</b> Clears out the terminal screen.</li>
+        
+    </ul>
+
+    <h3>Networking Commands :-</h3>
+    <ul>
+        <li>
+            <b>ifconfig : </b>
+            Gives us the information regarding our local IP address and our MAC address. <br>
+             <b>Syntax : </b>
+             ifconfig  or  sudo ifconfig
+            <br>
+            <b>sudo</b> is used to provide admin priviledge to the current account.
+        </li>
+        
+    </ul>
+    
+    <h2>Information Gathering tools :-</h2>
+    <!-- Here we will learn about how to gather the information from the websites -->
+    <h3>Basic Email gathering tool :-</h3>
+    <ul>
+
+        <li>
+            <b>ping :</b> It is used to get the ip address of a website. <br>
+            <b>Syntax :</b> ping website_address
+        </li>
+        <li>
+            <b>nslookup :</b> It is used to get the ip address of a website. <br>
+            <b>Syntax :</b> nslookup website_address
+        </li>
+        <li>
+            <b>whois : </b>It gives us a detailed information for a website rather than just ip including DNS , active status, registration date, expiry date, contact number, email addresses, etc. <br>
+            <b>Syntax : </b>whois website-name
+        </li>
+        <li>
+            <b>whatweb :</b>It gives us a detailed information about the website including the IP address, emails, technology stacks used along with the versions and a lot more. <br>
+            <b>Syntax : 
+                <ol>
+                    <li></b>whatweb website-address <br></li>
+                    <li><b>whatweb website-address -v</b> It gives information in a more descriptive way.</li>
+                    <li><b>whatweb website-address --aggression (1-4) -v</b> It gives information in a more descriptive way with aggression level ranging from 1 (stealthy) to 4 ( heavy ).</li>
+                    <li><b>whatweb IP-range</b> It gives information about the website ranging from given IP to destination IP.</li>
+                    <li><b>whatweb IP-range --no-errors</b> It gives information without showing up the errors.</li>
+                    <li><b>whatweb IP-range --no-errors --log-verbose=file-name</b> It gives us the information and saves it to the file file-name.</li>
+                </ol>
+        </li>
+    </ul>
+    <h3>Gathering Emails using theHarvester :-</h3>
+    <ul>
+        <li>
+            <b>
+                theHarvester -d (domain-name) -b (name of the sources to search for e.g. google , linkedlin, or all) -l (limit, default is 500)
+            </b><br>
+            It will take some time and then display the results to us.
+        </li>
+    </ul>
+    <h3>Gathering Emails using hunter.io :-</h3>
+    <ul><li>It is a website that can help us to find emails and usernames from a target website.</li></ul>
+
+    <h3>Using tools from GITHUB :-</h3>
+    <p>
+        First of all, find the tool you wanna use and then clone it using the command <b> git clone _link of the Github Project_ </b> <br>Now read all the documentation of the website to use the tool as per our need. <br>
+        Some of the example of the tool is Red_Hawk , sherlock (Used for finding the usernames) , etc.
+    </p>
+
+
+
+
+
+
+
+    <h2>Scanning Tools :-</h2>
+    <!-- Here we get much deeper information as in information gathering -->
+    <!-- Focused more on technolgy -->
+    <!-- We are more likely to scan for some open ports and what version of the tech stack they are currently using -->
+
+    <!-- TCP(Transmission control protocol) and UDP(User datagram protocol) -->
+    <!-- Both are used for sending the data or the package    -->
+    <!-- TCP is a way handshake   -->
+    <!-- In TCP first of all we synchronise with the server then we sent the request to the server then server sends us the required package -->
+    <!-- These packages are numbered when they are sent from the server to the client and then checked for some errors -> If any package is not sent by server or recieved by the client then it is resent by the server-->
+
+    <!-- On the other hand UDP is used for the same purpose but it is faster than TCP. It is used when there is no error as it doesnot check for the errors -> Used for live streaming and gamings -> If any package is missing then it can't be sent back -->
+    <h3>Scanning the network :</h3>
+    <p>First of all check how many open ports we have on our network</p>
+    <p><b>arp command :</b> is used to display all the networks connected to our network.</p>
+    <p><b>Syntax : </b>arp -a</p>
+    <p>But for that we need to communicate with the device hence it is not much used</p>
+
+    <p><b>netdiscover :</b> It is better than arp, its list all the devices on our network without communicating with them</p>
+    <p>To check details about our router we can use the command : <b>netstat -nr</b></p>
+
+    <!-- Nmap -->
+    <p><b>namp : </b>Is used to find the open port in the network.</p>
+    <p><b>Syntax : </b>nmap ip-address / website</p>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <a href="../index.html" class="back">Back</a>
+    </footer>
+
+</body>
+</html>
