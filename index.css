@@ -41,7 +41,7 @@ h1:hover{
     background-color: rgb(21, 177, 238);
 }
 .learn-with-us:hover {
-    color: black;
+    /* color: black; */
     background-color: rgb(21, 177, 238);
 }
 
@@ -128,7 +128,7 @@ h1:hover{
     place-items: center;
 }
 .navbar-button a {
-    color: rgb(0, 0, 0);
+    color: inherit;
     padding-bottom: .3rem;
     text-decoration: none;
 }
@@ -201,6 +201,7 @@ h3:hover {
 }
 .navbar{
     border-radius: 0;
+    width: 97%;
 }
 
 
@@ -641,4 +642,12 @@ button{
 .navbar{
     border-top-right-radius: 35%;
     border-top-left-radius: 35%;
+}
+
+
+
+#mode1,#mode2{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
 }
