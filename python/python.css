@@ -35,3 +35,48 @@ a{
     padding-bottom: .25rem;
     border-radius: 15%;
 }
+.css{
+    /* color: black; */
+    border: 1px solid white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px white;
+    /* background-color: rgba(255, 255, 255, 0.679); */
+    width: fit-content;
+}
+.css h2,.css h3{
+    text-decoration: underline;
+}
+
+.chapterlist p{
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.header h1{
+    border-bottom: 1px solid white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0;
+    /* text-align: center; */
+}
+.header{
+    border-bottom: 2px solid white;
+    border-radius: 5px;
+    /* padding-bottom: -1vw; */
+    margin-bottom: 1vw;
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 30px;    
+}
+
+
+.chapterlist{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1vw;
+    column-gap: 2vw;
+    padding-bottom: 2vw;
+}
