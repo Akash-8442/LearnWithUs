@@ -5,5 +5,4 @@ const downloadRef = document.getElementsByClassName('download-button')[0];
 
 function download(){
     downloadRef.innerHTML = 'Downloading';
-
 }

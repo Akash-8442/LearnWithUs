@@ -35,6 +35,8 @@ h1 {
 .header-section {
     display: flex;
     justify-content: space-around;
+    place-items: center;
+    /* place-content: center; */
     border-radius: 7rem;
     border-top-right-radius: 0rem;
     border-top-left-radius: 0rem;
@@ -611,3 +613,20 @@ img:hover {
 }
 
 
+details , summary{
+    list-style-type: none;
+}
+
+#firstSem ul , #firstSem details , #secondSem ul , #secondSem details{
+    padding-left: 5vw;
+}
+
+#yearWiseNotes h2{
+    font-size: 1.2rem;
+}
+.firsth2{
+    background-color: #375dc766;
+}
+#yearWiseNotes li{
+    line-height: 3vw;
+}

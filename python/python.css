@@ -1,0 +1,37 @@
+html{
+    background-image:linear-gradient(to right, #1f3370, #1f3d3b);
+    padding-left: .5rem;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    place-items: center;
+   gap: 2%; 
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.back{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    background-color: rgba(56, 27, 186, 0.822);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    border-radius: 15%;
+}
