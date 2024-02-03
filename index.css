@@ -235,6 +235,15 @@ h3:hover {
 
 }
 
+.buttons button{
+    background-color: transparent;
+}
+.buttons button:hover{
+    font-weight: bold;
+    cursor: grab;
+    background-color: transparent;
+}
+
 
 .html-logo ,.html-logo-in{
     height: 19vh;
@@ -243,6 +252,8 @@ h3:hover {
     border-radius: 1rem;
     z-index: 1;
 }
+
+
 
 /* .html-logo:hover {
     height: 23vh;
